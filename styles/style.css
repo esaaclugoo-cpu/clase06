@@ -2,15 +2,38 @@
     --main-color: orange;
     --secondary-color: bisque;
 }
-
 div,nav,h1,p,a,span,button,input,img{
-
-    border: 10px solid var(--main-color);
+    border: 5px double var(--main-color);
     background-color: var(--secondary-color);
     width: 200px;
     margin: 2px
 }
-
-.hidden:hover{
+.ra{
+    border-radius: 10px;
+    text-align: center;
+    border: 5px dotted var(--main-color);
+    box-shadow: inset 5px 5px 10px red;
+}
+h1{
+    text-align: center;
+}
+.x:hover{
     display: none;
+}
+p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.element{
+    width: 500px;
+    height: 200px;
+    background-image: 
+    linear-gradient(to right, rgb(255 0 0/ 50%), black),
+    url("https://i.ytimg.com/vi_webp/gLGyy7E7n_s/mqdefault.webp");
+    background-size: auto, contain;
+    background-position: 0 0, center;
+    background-repeat: repeat, no-repeat;
+    border: 5px solid black;
 }
