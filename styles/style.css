@@ -1,0 +1,16 @@
+:root{
+    --main-color: orange;
+    --secondary-color: bisque;
+}
+
+div,nav,h1,p,a,span,button,input,img{
+
+    border: 10px solid var(--main-color);
+    background-color: var(--secondary-color);
+    width: 200px;
+    margin: 2px
+}
+
+.hidden:hover{
+    display: none;
+}
